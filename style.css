@@ -1,7 +1,4 @@
-<title>Trip.com to Orbitz</title>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap">
-<style>
-  :root{
+:root{
     --bg:#0a1420;
     --bg-panel:#101d2e;
     --bg-panel-2:#16283e;
@@ -11,6 +8,56 @@
     --pop:#ff7a45;
     --line:#1f2f42;
   }
+
+
+
+.logo-card {
+    border: none !important;
+    background-color: transparent !important;   
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: center;
+}
+.logo-card:nth-child(1) {
+      background-image: url(/images/001.png);
+    }
+.logo-card:nth-child(2) {
+        background-image: url(/images/002.png);
+      }
+.logo-card:nth-child(3) {
+        background-image: url(/images/003.png);
+      }
+.logo-card:nth-child(4) {
+        background-image: url(/images/004.png);
+      }
+.logo-card:nth-child(5) {
+        background-image: url(/images/005.png);
+      }
+.logo-card:nth-child(6) {
+        background-image: url(/images/006.png);
+      }
+.logo-card:nth-child(7) {
+        background-image: url(/images/007.png);
+      }
+.logo-card:nth-child(8) {
+        background-image: url(/images/008.png);
+      }
+.logo-card:nth-child(9) {
+        background-image: url(/images/009.png);
+      }
+.logo-card:nth-child(10) {
+        background-image: url(/images/010.png);
+      }
+.logo-card:nth-child(11) {
+        background-image: url(/images/011.png);
+      }
+.logo-card:nth-child(12) {
+      background-image: url(/images/012.png);
+    }
+
+
+
+
   *{box-sizing:border-box;}
   html,body{margin:0;padding:0;}
   body{
@@ -67,7 +114,7 @@
   .hero{
     position:relative;
     overflow:hidden;
-    min-height:min(640px,86svh);
+    min-height: min(640px,86svh);
     display:flex;
     align-items:center;
     padding:clamp(56px,10vw,96px) clamp(20px,6vw,64px) clamp(64px,10vw,100px);
@@ -163,7 +210,7 @@
 
   .marquee{ position:relative; width:100%; }
   .marquee::before, .marquee::after{
-    content:""; position:absolute; top:0; bottom:0; width:min(120px,10vw); z-index:2; pointer-events:none;
+    content:""; position:absolute; top:0; bottom:0; width: min(120px,10vw); z-index:2; pointer-events:none;
   }
   .marquee::before{ left:0; background:linear-gradient(90deg, var(--bg) 0%, transparent 100%); }
   .marquee::after{ right:0; background:linear-gradient(270deg, var(--bg) 0%, transparent 100%); }
@@ -218,131 +265,3 @@
     display:flex; justify-content:space-between; flex-wrap:wrap; gap:8px;
     font-size:12px; color:var(--text-dim);
   }
-</style>
-
-<div class="page">
-
-  <div class="topbar">
-    <div class="kicker">Portfolio Case Study</div>
-    <div class="meta">Three-Iteration Redesign</div>
-  </div>
-
-  <div class="hero">
-    <div class="hero-inner">
-      <div class="kicker">Online Travel &amp; Booking &middot; Three Site Iterations</div>
-      <h1 class="display">Trip.com.<br>CheapTickets.<br><em>Orbitz.</em></h1>
-      <p>One continuous thread of work, three different brands. I led the information architecture and UX through three successive site iterations — Trip.com, CheapTickets, and Orbitz — carrying user research, competitive analysis, and a growing brand portfolio through every relaunch.</p>
-    </div>
-  </div>
-
-  <div class="iterations">
-    <div class="iter-card"><div class="name">Trip.com</div><div class="label">Iteration 01</div></div>
-    <div class="iter-arrow">&rarr;</div>
-    <div class="iter-card"><div class="name">CheapTickets</div><div class="label">Iteration 02</div></div>
-    <div class="iter-arrow">&rarr;</div>
-    <div class="iter-card"><div class="name">Orbitz</div><div class="label">Iteration 03</div></div>
-  </div>
-
-  <div class="challenge">
-    <div class="label"><div class="kicker">The Challenge</div></div>
-    <p>Three different online travel sites, three different brand identities, one continuous thread of work: usability testing, competitive analysis, and information architecture carried forward across Trip.com, CheapTickets, and Orbitz. Each relaunch meant proving the same rigor against a new brand and a new set of competitors — and each time, raising the bar on usability, loyalty, and cost per transaction.</p>
-  </div>
-
-  <div class="role">
-    <div class="role-head">
-      <div class="kicker">My Role</div>
-      <h2 class="display">Proving usability, rebrand after rebrand.</h2>
-      <div class="role-tags">
-        <span class="tag">Lead Information Architect (IA)</span>
-        <span class="tag">User Experience (UX) Designer</span>
-      </div>
-      <p class="sub">From heuristic evaluation to live user testing, I owned the research and IA discipline that carried through three site relaunches — and a growing portfolio of brand partners.</p>
-    </div>
-
-    <div class="steps">
-      <div class="card"><div class="num">01</div><div class="title">Heuristic Evaluation</div><div class="desc">Ran site heuristics through user testing and marketing research to surface where the experience broke down.</div></div>
-      <div class="card"><div class="num">02</div><div class="title">Competitive Analysis</div><div class="desc">Conducted extensive competitive analysis against the top online travel sites to find real opportunities.</div></div>
-      <div class="card"><div class="num">03</div><div class="title">Use Cases &amp; Flows</div><div class="desc">Mapped use cases, user flows, and intuitive navigation patterns across every iteration of the site.</div></div>
-      <div class="card"><div class="num">04</div><div class="title">Site Re-Architecture</div><div class="desc">Led a full site re-architecture that earned a Consumer Reports rating as the highest-usability site among the top 5 online travel sites.</div></div>
-      <div class="card"><div class="num">05</div><div class="title">Live User Testing</div><div class="desc">Spearheaded site enhancements directly informed by live user testing.</div></div>
-      <div class="card"><div class="num">06</div><div class="title">Loyalty &amp; Retention</div><div class="desc">Shipped original site enhancements that increased loyalty and session length, and drove the lowest advertising expenditure per transaction of the top 5 travel sites.</div></div>
-      <div class="card"><div class="num">07</div><div class="title">Branding Guidelines</div><div class="desc">Created corporate branding guidelines carried across three successive site iterations.</div></div>
-      <div class="card"><div class="num">08</div><div class="title">Multi-Brand Implementation</div><div class="desc">Directed branding and digital implementation across a dozen hotel and rental-car partner brands.</div></div>
-    </div>
-  </div>
-
-  <div class="impact">
-    <div class="impact-head">
-      <span class="kicker">Impact</span>
-      <h2 class="display">What the numbers said</h2>
-    </div>
-    <div class="impact-grid">
-      <div class="card impact-card">
-        <div class="stat">Highest-Rated Usability</div>
-        <p>A full site re-architecture earned a Consumer Reports rating as the highest-usability site among the top 5 online travel sites.</p>
-      </div>
-      <div class="card impact-card">
-        <div class="stat">Lowest Cost Per Transaction</div>
-        <p>Original site enhancements increased site loyalty and session length, driving the lowest advertising expenditure per transaction of the top 5 travel sites.</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="partners">
-    <div class="partners-head">
-      <span class="kicker">Brand Partners</span>
-      <h2 class="display">Digital branding, one dozen brands</h2>
-      <p>Placeholder marks shown at 200&times;150 — swap in final logos anytime.</p>
-    </div>
-    <div class="marquee">
-      <div class="marquee-track" id="marqueeTrack">
-        <div class="logo-card"><div class="wordmark">Budget<br>Rent-A-Car</div></div>
-        <div class="logo-card"><div class="wordmark">AmeriHost<br>Inn</div></div>
-        <div class="logo-card"><div class="wordmark">Baymont Inn<br>&amp; Suites</div></div>
-        <div class="logo-card"><div class="wordmark">Days Inn</div></div>
-        <div class="logo-card"><div class="wordmark">Howard<br>Johnson</div></div>
-        <div class="logo-card"><div class="wordmark">Knights Inn</div></div>
-        <div class="logo-card"><div class="wordmark">La Quinta</div></div>
-        <div class="logo-card"><div class="wordmark">Ramada</div></div>
-        <div class="logo-card"><div class="wordmark">Super 8<br>Worldwide</div></div>
-        <div class="logo-card"><div class="wordmark">Travelodge</div></div>
-        <div class="logo-card"><div class="wordmark">Wingate<br>Inns</div></div>
-        <div class="logo-card"><div class="wordmark">Wyndham Hotels<br>&amp; Resorts</div></div>
-      </div>
-    </div>
-  </div>
-
-  <div class="skills">
-    <span class="kicker">Skills &amp; Technologies</span>
-    <h2 class="display">The toolkit behind it</h2>
-    <div class="skill-tags">
-      <span class="tag">Heuristic Evaluation</span>
-      <span class="tag">User Testing</span>
-      <span class="tag">Competitive Analysis</span>
-      <span class="tag">Use Cases &amp; Flows</span>
-      <span class="tag">Site Architecture</span>
-      <span class="tag">Branding Guidelines</span>
-      <span class="tag">Digital Branding Implementation</span>
-    </div>
-  </div>
-
-  <div class="closing">
-    <div class="closing-inner">
-      <h2 class="display">One discipline.<br>Three brands, <em class="pop">proven</em>.</h2>
-      <p>From Trip.com to CheapTickets to Orbitz, the same research and IA rigor — validated by Consumer Reports and carried across a dozen travel brand partners.</p>
-    </div>
-  </div>
-
-  <footer>
-    <div>Online Travel Platforms &middot; Three-Iteration Redesign</div>
-    <div>Information Architecture &middot; UX Design &middot; Brand Implementation</div>
-  </footer>
-</div>
-
-<script>
-  // Duplicate the marquee track content once for a seamless loop.
-  (function(){
-    var track = document.getElementById('marqueeTrack');
-    if(track){ track.innerHTML += track.innerHTML; }
-  })();
-</script>
